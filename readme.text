@@ -7,3 +7,6 @@ npm i express
 
 //for edit table
 npx prisma migrate dev --name "add skill level"
+
+
+deploy success on vercel & render 
