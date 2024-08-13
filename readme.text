@@ -8,5 +8,7 @@ npm i express
 //for edit table
 npx prisma migrate dev --name "add skill level"
 
-
+- add .env file to environment
+- setup command build in package.json
+- set deploy
 deploy success on vercel & render 
