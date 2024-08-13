@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "ts-node src/index.ts",
     "start": "node src/index.js",
-    "build": "[my-framework] build --output public"
+    "build": "[my-framework] build --output public",
+    "postinstall": "prisma generate"
   },
   "keywords": [],
   "author": "",
